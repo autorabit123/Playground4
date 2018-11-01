@@ -234,6 +234,7 @@
         <members>Bot_Command__c.Apex_Class__c</members>
         <members>Bot_Command__c.Pattern__c</members>
         <members>Bot_Command__c.Sample_Utterance__c</members>
+        <members>Broker__c.Broker_Fld__c</members>
         <members>Broker__c.Email__c</members>
         <members>Broker__c.Mobile_Phone__c</members>
         <members>Broker__c.Phone__c</members>
