@@ -1735,6 +1735,11 @@
         <field>Task.WhoId</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Test_Object_Demo__c.Test_Fld_Demo__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -1857,6 +1862,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Test_Object_Demo__c-Test Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>User-User Layout</layout>
@@ -2149,6 +2157,15 @@
         <object>StreamingChannel</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Test_Object_Demo__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <pageAccesses>
         <apexPage>DreamHouseSampleData</apexPage>
         <enabled>true</enabled>
@@ -2212,6 +2229,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Sample_Data_Import</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Test_Object_Demo__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -2318,6 +2339,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ActivateOrder</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
