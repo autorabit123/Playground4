@@ -1,5 +1,5 @@
 public class BotField {
-
+//ToastTab Demo
     @AuraEnabled public String name { get;set; }
     @AuraEnabled public String value { get;set; }
     @AuraEnabled public String linkURL { get;set; }
@@ -7,6 +7,7 @@ public class BotField {
     public BotField(String name, String value) {
         this.name = name;
         this.value = value;
+        //Comment 1
     }
     
     public BotField(String name, String value, string linkURL) {
