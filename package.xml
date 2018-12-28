@@ -772,6 +772,7 @@
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
         <members>Test_Object_Demo__c.Test_Fld_Demo__c</members>
+        <members>ToastTab_CObj__c.ToastTab_Obj__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -854,6 +855,8 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>Test_Object_Demo__c</members>
+        <members>ToastTab_CObj__c</members>
+        <members>ToastTab_Obj__c</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
         <members>User</members>
@@ -887,6 +890,7 @@
         <members>Property__c</members>
         <members>Sample_Data_Import</members>
         <members>Test_Object_Demo__c</members>
+        <members>ToastTab_Obj__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -1009,6 +1013,8 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test_Object_Demo__c-Test Object Layout</members>
+        <members>ToastTab_CObj__c-ToastTab CObj Layout</members>
+        <members>ToastTab_Obj__c-ToastTab Obj Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
@@ -1076,6 +1082,7 @@
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Test_Object_Demo__c.All</members>
+        <members>ToastTab_Obj__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
